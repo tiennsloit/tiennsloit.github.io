@@ -980,6 +980,9 @@
 .duration-200 {
       transition-duration: 200ms;
 }
+.duration-300 {
+      transition-duration: 300ms;
+}
 
 body, html {
     min-height: 100vh;
@@ -988,6 +991,12 @@ body, html {
 .hover\:scale-110:hover {
       --tw-scale-x: 1.1;
       --tw-scale-y: 1.1;
+      transform: var(--tw-transform);
+}
+
+.hover\:scale-125:hover {
+      --tw-scale-x: 1.25;
+      --tw-scale-y: 1.25;
       transform: var(--tw-transform);
 }
 
