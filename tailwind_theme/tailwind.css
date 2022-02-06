@@ -704,6 +704,9 @@
 .list-disc {
       list-style-type: disc;
 }
+.flex-col {
+      flex-direction: column;
+}
 .flex-wrap {
       flex-wrap: wrap;
 }
@@ -1026,6 +1029,10 @@ body, html {
             margin-bottom: -4rem;
       }
 
+      .md\:flex {
+            display: flex;
+      }
+
       .md\:hidden {
             display: none;
       }
@@ -1040,6 +1047,10 @@ body, html {
 
       .md\:w-24 {
             width: 6rem;
+      }
+
+      .md\:flex-row {
+            flex-direction: row;
       }
 
       .md\:border {
@@ -1156,6 +1167,14 @@ body, html {
             width: 7rem;
       }
 
+      .lg\:flex-row {
+            flex-direction: row;
+      }
+
+      .lg\:items-center {
+            align-items: center;
+      }
+
       .lg\:border-l-2 {
             border-left-width: 2px;
       }
@@ -1188,6 +1207,10 @@ body, html {
       .lg\:px-12 {
             padding-left: 3rem;
             padding-right: 3rem;
+      }
+
+      .lg\:pl-2 {
+            padding-left: 0.5rem;
       }
 
       .lg\:text-8xl {
