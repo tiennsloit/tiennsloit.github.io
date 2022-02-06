@@ -1070,6 +1070,14 @@ body, html {
             padding-bottom: 1.5rem;
       }
 
+      .md\:pb-4 {
+            padding-bottom: 1rem;
+      }
+
+      .md\:pb-2 {
+            padding-bottom: 0.5rem;
+      }
+
       .md\:text-2xl {
             font-size: 1.5rem;
             line-height: 2rem;
@@ -1085,6 +1093,10 @@ body, html {
 
       .lg\:-mb-10 {
             margin-bottom: -2.5rem;
+      }
+
+      .lg\:mb-4 {
+            margin-bottom: 1rem;
       }
 
       .lg\:flex {
